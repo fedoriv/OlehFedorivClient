@@ -1,3 +1,7 @@
+import web.soap.server.Mail;
+import web.soap.server.MailService;
+import web.soap.server.MailServiceImplService;
+
 import java.util.List;
 
 public class ClientStarter {

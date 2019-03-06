@@ -27,7 +27,7 @@ public class SendMailTest {
         mail.setTitle(title + " " + new Date());
         mail.setText(text);
         mailService.send(mail);
-        Assert.assertEquals(mailService.findById(mail.get).size(), 10);
+        Assert.assertEquals(mailService.findByEmail(email).get(0), email);
     }
 
     @DataProvider(parallel=true, name="mailParameters")
