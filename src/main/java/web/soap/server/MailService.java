@@ -27,22 +27,28 @@ public interface MailService {
     /**
      * 
      * @param arg0
+     * @return
+     *     returns boolean
      */
     @WebMethod
+    @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "remove", targetNamespace = "http://server.soap.web/", className = "web.soap.server.Remove")
     @ResponseWrapper(localName = "removeResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.RemoveResponse")
-    public void remove(
+    public boolean remove(
         @WebParam(name = "arg0", targetNamespace = "")
         List<Mail> arg0);
 
     /**
      * 
      * @param arg0
+     * @return
+     *     returns boolean
      */
     @WebMethod
+    @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "send", targetNamespace = "http://server.soap.web/", className = "web.soap.server.Send")
     @ResponseWrapper(localName = "sendResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.SendResponse")
-    public void send(
+    public boolean send(
         @WebParam(name = "arg0", targetNamespace = "")
         Mail arg0);
 
@@ -79,6 +85,7 @@ public interface MailService {
      * @param arg0
      * @return
      *     returns web.soap.server.Mail
+     * @throws ServiceException
      */
     @WebMethod
     @WebResult(targetNamespace = "")
@@ -86,7 +93,9 @@ public interface MailService {
     @ResponseWrapper(localName = "findByIdResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.FindByIdResponse")
     public Mail findById(
         @WebParam(name = "arg0", targetNamespace = "")
-        String arg0);
+        String arg0)
+        throws ServiceException
+    ;
 
     /**
      * 

@@ -1,0 +1,10 @@
+INFO  2019-03-07 12:42 SendMailTest:44 - Test getMailByTitle() started. 
+INFO  2019-03-07 12:42 SendMailTest:55 - Test getMailByTitle() finished successful 
+INFO  2019-03-07 13:54 SendMailTest:44 - Test getMailByTitle() started. 
+INFO  2019-03-07 13:54 SendMailTest:55 - Test getMailByTitle() finished successful 
+INFO  2019-03-07 13:58 SendMailTest:44 - Test getMailByTitle() started. 
+ 
+INFO  2019-03-07 13:58 SendMailTest:54 - Test getMailByTitle() finished successful 
+INFO  2019-03-07 13:59 SendMailTest:44 - Test getMailByTitle() started. 
+INFO  2019-03-07 13:59 SendMailTest:54 - Test getMailByTitle() finished successful 
+INFO  2019-03-07 14:51 SendMailTest:44 - Test getMailByTitle() started. 

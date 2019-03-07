@@ -32,6 +32,7 @@ public class ObjectFactory {
     private final static QName _GetAllResponse_QNAME = new QName("http://server.soap.web/", "getAllResponse");
     private final static QName _GetAll_QNAME = new QName("http://server.soap.web/", "getAll");
     private final static QName _RemoveAllResponse_QNAME = new QName("http://server.soap.web/", "removeAllResponse");
+    private final static QName _MailServiceFault_QNAME = new QName("http://server.soap.web/", "MailServiceFault");
     private final static QName _Send_QNAME = new QName("http://server.soap.web/", "send");
     private final static QName _FindByEmail_QNAME = new QName("http://server.soap.web/", "findByEmail");
     private final static QName _FindById_QNAME = new QName("http://server.soap.web/", "findById");
@@ -159,6 +160,22 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link MailServiceFault }
+     * 
+     */
+    public MailServiceFault createMailServiceFault() {
+        return new MailServiceFault();
+    }
+
+    /**
+     * Create an instance of {@link ServiceFaultInfo }
+     * 
+     */
+    public ServiceFaultInfo createServiceFaultInfo() {
+        return new ServiceFaultInfo();
+    }
+
+    /**
      * Create an instance of {@link Mail }
      * 
      */
@@ -236,6 +253,15 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://server.soap.web/", name = "removeAllResponse")
     public JAXBElement<RemoveAllResponse> createRemoveAllResponse(RemoveAllResponse value) {
         return new JAXBElement<RemoveAllResponse>(_RemoveAllResponse_QNAME, RemoveAllResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link MailServiceFault }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.soap.web/", name = "MailServiceFault")
+    public JAXBElement<MailServiceFault> createMailServiceFault(MailServiceFault value) {
+        return new JAXBElement<MailServiceFault>(_MailServiceFault_QNAME, MailServiceFault.class, null, value);
     }
 
     /**

@@ -1,6 +1,7 @@
 package soap;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -8,20 +9,30 @@ import web.soap.server.Mail;
 import web.soap.server.MailService;
 import web.soap.server.MailServiceImplService;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class SendMailTest {
 
+    private static Logger LOG = LogManager.getLogger(SendMailTest.class);
     private MailService mailService;
 
     @BeforeTest
-    public void before() {
+    public void beforeTest() {
         mailService = new MailServiceImplService().getMailServiceImplPort();
     }
-    @Test(dataProvider="mailParameters")
-    public void sendMail(String email, String title, String text){
+
+    @BeforeMethod
+    public void beforeMethod() {
         mailService.removeAll();
+    }
+
+    @Test(dataProvider="mailParameters")
+    public void sendMailTest(String email, String title, String text){
         Mail mail = new Mail();
         mail.setReceiver(email);
         mail.setTitle(title + " " + new Date());
@@ -29,7 +40,30 @@ public class SendMailTest {
         mailService.send(mail);
         Assert.assertEquals(mailService.findByEmail(email).get(0), email);
     }
-
+    @Test
+    public void getMailByTitleTest() {
+        LOG.info("Test getMailByTitle() started.");
+        Mail mail = new Mail();
+        mail.setReceiver("evilzli@ukr.rrrr");
+        mail.setTitle("SomeTitle");
+        mail.setText("And some text");
+//        mailService.send(mail);
+        List<Mail> mailsByTitle = mailService.findByTitle("SomeTitl5e");
+        for (Mail m : mailsByTitle) {
+            Assert.assertEquals(m.getTitle(), "SomeTitle");
+        }
+    }
+    @Test
+    public void removeTest() {
+        Mail mail = new Mail();
+        mail.setReceiver("evilzli@ukr.rrrr");
+        mail.setTitle("SomeTitle");
+        mail.setText("And some text");
+//        mailService.send(mail);
+        List<Mail> mails = new ArrayList<Mail>();
+        mails.add(mail);
+        mailService.remove(mails);
+    }
     @DataProvider(parallel=true, name="mailParameters")
     public Object[][] params() {
         return new Object[][]{
