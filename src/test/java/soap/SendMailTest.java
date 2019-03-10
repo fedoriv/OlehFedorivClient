@@ -28,7 +28,7 @@ public class SendMailTest {
 
     @BeforeMethod
     public void beforeMethod() {
-        mailService.removeAll();
+        mailService.clearMails();
     }
 
     @Test(dataProvider="mailParameters")

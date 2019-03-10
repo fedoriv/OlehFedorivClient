@@ -100,6 +100,17 @@ public interface MailService {
     /**
      * 
      * @return
+     *     returns boolean
+     */
+    @WebMethod
+    @WebResult(targetNamespace = "")
+    @RequestWrapper(localName = "clearMails", targetNamespace = "http://server.soap.web/", className = "web.soap.server.ClearMails")
+    @ResponseWrapper(localName = "clearMailsResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.ClearMailsResponse")
+    public boolean clearMails();
+
+    /**
+     * 
+     * @return
      *     returns java.util.List<web.soap.server.Mail>
      */
     @WebMethod
@@ -107,13 +118,5 @@ public interface MailService {
     @RequestWrapper(localName = "getAll", targetNamespace = "http://server.soap.web/", className = "web.soap.server.GetAll")
     @ResponseWrapper(localName = "getAllResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.GetAllResponse")
     public List<Mail> getAll();
-
-    /**
-     * 
-     */
-    @WebMethod
-    @RequestWrapper(localName = "removeAll", targetNamespace = "http://server.soap.web/", className = "web.soap.server.RemoveAll")
-    @ResponseWrapper(localName = "removeAllResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.RemoveAllResponse")
-    public void removeAll();
 
 }

@@ -28,17 +28,17 @@ public class ObjectFactory {
     private final static QName _Remove_QNAME = new QName("http://server.soap.web/", "remove");
     private final static QName _FindByTitle_QNAME = new QName("http://server.soap.web/", "findByTitle");
     private final static QName _SendResponse_QNAME = new QName("http://server.soap.web/", "sendResponse");
+    private final static QName _ClearMailsResponse_QNAME = new QName("http://server.soap.web/", "clearMailsResponse");
     private final static QName _RemoveResponse_QNAME = new QName("http://server.soap.web/", "removeResponse");
     private final static QName _GetAllResponse_QNAME = new QName("http://server.soap.web/", "getAllResponse");
+    private final static QName _ClearMails_QNAME = new QName("http://server.soap.web/", "clearMails");
     private final static QName _GetAll_QNAME = new QName("http://server.soap.web/", "getAll");
-    private final static QName _RemoveAllResponse_QNAME = new QName("http://server.soap.web/", "removeAllResponse");
     private final static QName _MailServiceFault_QNAME = new QName("http://server.soap.web/", "MailServiceFault");
     private final static QName _Send_QNAME = new QName("http://server.soap.web/", "send");
     private final static QName _FindByEmail_QNAME = new QName("http://server.soap.web/", "findByEmail");
     private final static QName _FindById_QNAME = new QName("http://server.soap.web/", "findById");
     private final static QName _FindByIdResponse_QNAME = new QName("http://server.soap.web/", "findByIdResponse");
     private final static QName _FindByTitleResponse_QNAME = new QName("http://server.soap.web/", "findByTitleResponse");
-    private final static QName _RemoveAll_QNAME = new QName("http://server.soap.web/", "removeAll");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: web.soap.server
@@ -56,11 +56,27 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link ClearMails }
+     * 
+     */
+    public ClearMails createClearMails() {
+        return new ClearMails();
+    }
+
+    /**
      * Create an instance of {@link GetAllResponse }
      * 
      */
     public GetAllResponse createGetAllResponse() {
         return new GetAllResponse();
+    }
+
+    /**
+     * Create an instance of {@link ClearMailsResponse }
+     * 
+     */
+    public ClearMailsResponse createClearMailsResponse() {
+        return new ClearMailsResponse();
     }
 
     /**
@@ -104,14 +120,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link RemoveAll }
-     * 
-     */
-    public RemoveAll createRemoveAll() {
-        return new RemoveAll();
-    }
-
-    /**
      * Create an instance of {@link FindByTitleResponse }
      * 
      */
@@ -149,14 +157,6 @@ public class ObjectFactory {
      */
     public Send createSend() {
         return new Send();
-    }
-
-    /**
-     * Create an instance of {@link RemoveAllResponse }
-     * 
-     */
-    public RemoveAllResponse createRemoveAllResponse() {
-        return new RemoveAllResponse();
     }
 
     /**
@@ -220,6 +220,15 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClearMailsResponse }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.soap.web/", name = "clearMailsResponse")
+    public JAXBElement<ClearMailsResponse> createClearMailsResponse(ClearMailsResponse value) {
+        return new JAXBElement<ClearMailsResponse>(_ClearMailsResponse_QNAME, ClearMailsResponse.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link RemoveResponse }{@code >}}
      * 
      */
@@ -238,21 +247,21 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link ClearMails }{@code >}}
+     * 
+     */
+    @XmlElementDecl(namespace = "http://server.soap.web/", name = "clearMails")
+    public JAXBElement<ClearMails> createClearMails(ClearMails value) {
+        return new JAXBElement<ClearMails>(_ClearMails_QNAME, ClearMails.class, null, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetAll }{@code >}}
      * 
      */
     @XmlElementDecl(namespace = "http://server.soap.web/", name = "getAll")
     public JAXBElement<GetAll> createGetAll(GetAll value) {
         return new JAXBElement<GetAll>(_GetAll_QNAME, GetAll.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link RemoveAllResponse }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://server.soap.web/", name = "removeAllResponse")
-    public JAXBElement<RemoveAllResponse> createRemoveAllResponse(RemoveAllResponse value) {
-        return new JAXBElement<RemoveAllResponse>(_RemoveAllResponse_QNAME, RemoveAllResponse.class, null, value);
     }
 
     /**
@@ -307,15 +316,6 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://server.soap.web/", name = "findByTitleResponse")
     public JAXBElement<FindByTitleResponse> createFindByTitleResponse(FindByTitleResponse value) {
         return new JAXBElement<FindByTitleResponse>(_FindByTitleResponse_QNAME, FindByTitleResponse.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link RemoveAll }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "http://server.soap.web/", name = "removeAll")
-    public JAXBElement<RemoveAll> createRemoveAll(RemoveAll value) {
-        return new JAXBElement<RemoveAll>(_RemoveAll_QNAME, RemoveAll.class, null, value);
     }
 
 }
