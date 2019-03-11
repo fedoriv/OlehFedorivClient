@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SOAP" verbose="10" group-by-instances="true" thread-count="5"  data-provider-thread-count="5" parallel="methods">
+    <test name="SOAPTest" >
+        <classes>
+            <class name="web.FindByReceiverTest">
+                <methods>
+                    <include name="findMailByReceiverSOAPTest" />
+                </methods>
+            </class>
+            <class name="web.FindByTitleTest">
+                <methods>
+                    <include name="findMailByTitleSOAPTest" />
+                </methods>
+            </class>
+            <class name="web.RemoveMailsTest">
+                <methods>
+                    <include name="removeMailsSOAPTest" />
+                </methods>
+            </class>
+            <class name="web.SendMailsTest">
+                <methods>
+                    <include name="sendMailSOAPTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

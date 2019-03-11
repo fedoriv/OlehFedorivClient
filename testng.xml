@@ -2,7 +2,10 @@
 <suite name="MailTest" verbose="10" group-by-instances="true" thread-count="5"  data-provider-thread-count="5" parallel="methods">
     <test name="EmailSendingTest" >
         <classes>
-            <class name="soap.SendMailTest"/>
+            <class name="web.FindByReceiverTest"/>
+            <class name="web.FindByTitleTest"/>
+            <class name="web.RemoveMailsTest"/>
+            <class name="web.SendMailsTest"/>
         </classes>
     </test>
 </suite>

@@ -3,9 +3,10 @@ package web.soap.server;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-import javax.xml.datatype.XMLGregorianCalendar;
+import java.util.Date;
+import java.util.Objects;
+import java.util.UUID;
 
 
 /**
@@ -18,7 +19,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="date" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
+ *         &lt;element name="date" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="receiver" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="text" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -41,22 +42,33 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class Mail {
 
-    @XmlSchemaType(name = "dateTime")
-    protected XMLGregorianCalendar date;
+    protected String date;
     protected String id;
     protected String receiver;
     protected String text;
     protected String title;
 
+    public Mail(){
+        date = new Date().toString();
+        id = UUID.randomUUID().toString();
+    }
+
+    public Mail(String receiver, String title, String text){
+        date = new Date().toString();
+        id = UUID.randomUUID().toString();
+        this.receiver = receiver;
+        this.title = title;
+        this.text = text;
+    }
     /**
      * Gets the value of the date property.
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link String }
      *     
      */
-    public XMLGregorianCalendar getDate() {
+    public String getDate() {
         return date;
     }
 
@@ -65,10 +77,10 @@ public class Mail {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link String }
      *     
      */
-    public void setDate(XMLGregorianCalendar value) {
+    public void setDate(String value) {
         this.date = value;
     }
 
@@ -168,4 +180,29 @@ public class Mail {
         this.title = value;
     }
 
+    @Override
+    public String toString() {
+        return "Mail{" +
+                "id='" + id + '\'' +
+                ", receiver='" + receiver + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Mail mail = (Mail) o;
+        return date.equals(mail.date) &&
+                id.equals(mail.id) &&
+                Objects.equals(receiver, mail.receiver) &&
+                Objects.equals(text, mail.text) &&
+                Objects.equals(title, mail.title);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(date, id, receiver, text, title);
+    }
 }

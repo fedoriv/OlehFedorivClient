@@ -9,3 +9,665 @@ INFO  2019-03-07 13:59 SendMailTest:44 - Test getMailByTitle() started.
 INFO  2019-03-07 13:59 SendMailTest:54 - Test getMailByTitle() finished successful 
 INFO  2019-03-07 14:51 SendMailTest:44 - Test getMailByTitle() started. 
 INFO  2019-03-10 19:45 SendMailTest:45 - Test getMailByTitle() started. 
+INFO  2019-03-11 09:41 RestMailService:41 - Send mail 
+INFO  2019-03-11 09:41 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 09:48 SendMailTest:46 - Test getMailByTitle() started. 
+INFO  2019-03-11 09:49 RestMailService:41 - Send mail 
+INFO  2019-03-11 09:49 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:12 RestMailService:41 - Send mail 
+INFO  2019-03-11 10:12 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:12 SendMailTest:46 - Test getMailByTitle() started. 
+INFO  2019-03-11 10:13 RestMailService:41 - Send mail 
+INFO  2019-03-11 10:13 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:15 RestMailService:41 - Send mail 
+INFO  2019-03-11 10:15 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:16 RestMailService:41 - Send mail 
+INFO  2019-03-11 10:16 RestMailService:45 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:51 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 10:51 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title 1 
+INFO  2019-03-11 10:57 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 10:57 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 10:57 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 10:57 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 10:57 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:01 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:01 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:01 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:01 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:01 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:03 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:03 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:03 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:03 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:03 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:16 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:16 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:16 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:16 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:16 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:19 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:19 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:19 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:19 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:19 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:24 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:24 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:24 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:24 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:24 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:36 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:36 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:36 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:36 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:36 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:49 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:49 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:49 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:49 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:49 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:50 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:50 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 11:50 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:50 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:50 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:50 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:50 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%203 
+INFO  2019-03-11 11:50 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:50 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:50 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:50 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:50 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%204 
+INFO  2019-03-11 11:50 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:50 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:50 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:54 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:54 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%204 
+INFO  2019-03-11 11:54 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:54 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:54 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:55 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:55 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 11:55 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:55 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:55 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:55 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:55 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 11:55 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:55 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:55 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:55 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:55 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%209 
+INFO  2019-03-11 11:55 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:55 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:55 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:55 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:55 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%208 
+INFO  2019-03-11 11:55 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:55 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:55 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:58 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:58 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%208 
+INFO  2019-03-11 11:58 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:58 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:58 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 11:58 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 11:58 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 11:58 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 11:58 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 11:58 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:03 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:03 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:04 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:04 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:04 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:04 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:04 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:04 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:10 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:10 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:10 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:10 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:10 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:10 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 12:10 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:13 RestMailService:116 - Find mails by title 
+INFO  2019-03-11 12:13 RestMailService:120 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:13 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:13 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 12:13 RestMailService:178 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:20 RestMailService:117 - Find mails by title 
+INFO  2019-03-11 12:20 RestMailService:121 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:20 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:20 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 12:20 RestMailService:179 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:22 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:22 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:22 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:22 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 12:22 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:28 RestMailService:63 - Send mail 
+INFO  2019-03-11 12:28 RestMailService:67 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 12:28 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:36 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:36 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%2010 
+INFO  2019-03-11 12:36 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:36 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:36 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:36 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%201 
+INFO  2019-03-11 12:36 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:36 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:36 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:36 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:36 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:36 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:37 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:40 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:40 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:40 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:40 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:40 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:43 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:43 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:43 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:43 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:43 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:49 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:49 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:49 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:49 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:49 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:52 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:52 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:52 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:52 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:52 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 12:58 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 12:58 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 12:58 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 12:58 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 12:58 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 13:03 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 13:03 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 13:03 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 13:03 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 13:03 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 13:06 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 13:06 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 13:06 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 13:06 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 13:06 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 13:06 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 13:06 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 13:06 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 13:06 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 13:06 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 13:08 RestMailService:118 - Find mails by title 
+INFO  2019-03-11 13:08 RestMailService:122 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%202 
+INFO  2019-03-11 13:08 RestMailService:36 - Remove mail(s) from server 
+INFO  2019-03-11 13:08 RestMailService:41 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 13:08 RestMailService:180 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 13:55 SendMailTest:46 - Test getMailByTitle() started. 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:17 RestMailService:36 - Send mail 
+INFO  2019-03-11 15:17 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='ebd1908a-1b0a-497f-9fe3-ee6493b135b7', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='46d671c5-8cf0-4a98-acaa-cb2535fd5845', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='9a7bf529-7b1a-408c-8d00-dd4ca7bcd05a', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='a2c8a33b-769b-4612-b9f1-d09d8ed183ef', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='f5fbe635-b8e6-4137-927d-369d38505b45', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='61683b33-9480-4392-92ca-352ac3237931', receiver='email06@test.com', title='Title 6'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='fbc6986c-9b35-406b-b1af-b5dab12a9a6d', receiver='email07@test.com', title='Title 7'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='69a47cf4-4d07-4ae1-b8a9-af63c1c247aa', receiver='email08@test.com', title='Title 8'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='546df90d-8090-40e0-b703-176bcf184cac', receiver='email09@test.com', title='Title 9'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:23 RestMailService:36 - 
+RESTS request. Send mail
+Mail{id='d2694ebc-fcdf-401f-b05c-388c8d75e918', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 15:23 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='43c60835-f39e-4561-8dd9-fc5a4c42c8d4', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='72029b31-b5d4-49e5-8173-3605ee4c01c2', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='55a503b4-b086-4482-a8ba-37a0ed2d4073', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='e3cac53f-f788-4498-b12e-bf12e40bd354', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='85ad3852-1072-430d-aa02-37b35df62523', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='e49e3043-bd21-4292-bd07-2f19549eef0c', receiver='email06@test.com', title='Title 6'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='1bb7efdc-515f-45b5-8eaa-816834a5b555', receiver='email07@test.com', title='Title 7'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='795ea9e8-2c06-480b-a33e-72d7a0e9d3ab', receiver='email08@test.com', title='Title 8'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='291a9fbd-dfa9-40d7-a101-98aaeba49219', receiver='email09@test.com', title='Title 9'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 15:25 RestMailService:36 - RESTS request. Send mail
+Mail{id='f2383bc9-4109-4b73-8c89-5ef2a09267fc', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 15:25 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:23 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:23 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:23 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 16:23 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 16:23 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:23 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='461ee429-7360-4737-a04a-aa50ffbc3a68', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='d20daa7e-4f57-4b07-b5e1-055d1bf401d6', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='df2a3f3d-2cb8-4739-bf9b-4a16344dd382', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='a29c037e-02f7-45eb-b7a9-05d33f677e24', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='431caf40-635a-4533-a509-b9393c6d6e84', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='2bb42d8c-caf3-48a1-884f-f2c2ee709ab9', receiver='email06@test.com', title='Title 6'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='f8628eb9-a45c-46f1-9e92-a569271c6b79', receiver='email07@test.com', title='Title 7'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='9c5b17f1-0024-40d8-b858-60e1b2699aab', receiver='email08@test.com', title='Title 8'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='297b28d3-797f-4858-a282-26b10f28a335', receiver='email09@test.com', title='Title 9'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:26 RestMailService:36 - RESTS request. Send mail
+Mail{id='dd9c6459-98b8-421d-89d1-8fdb1c59264f', receiver='email010@test.com', title='Title 10'} 
+INFO  2019-03-11 16:26 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:38 RestMailService:36 - RESTS request. Send mail
+Mail{id='bb1f99a9-a5f6-4612-ad86-7a3134a2cc1a', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 16:38 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:38 RestMailService:36 - RESTS request. Send mail
+Mail{id='074ddf9c-069b-4e37-a062-f02059aacaf9', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 16:38 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:38 RestMailService:36 - RESTS request. Send mail
+Mail{id='429ed79f-9593-4135-8991-334fefffbcf4', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 16:38 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:38 RestMailService:36 - RESTS request. Send mail
+Mail{id='2fe4d7b0-c9db-479b-8e2e-154ef057ece7', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 16:38 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:38 RestMailService:36 - RESTS request. Send mail
+Mail{id='12468575-0943-4789-8295-dc807771f245', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 16:38 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:36 - RESTS request. Send mail
+Mail{id='1896e35c-1e82-4687-805a-c6dca8cd0dfd', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 16:39 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:36 - RESTS request. Send mail
+Mail{id='077c86ad-9864-44d2-a7d2-1a22a8497f3e', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 16:39 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:36 - RESTS request. Send mail
+Mail{id='8115f4db-6f41-407d-9031-296550ca4791', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 16:39 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:36 - RESTS request. Send mail
+Mail{id='be854a9f-cf66-421a-b064-a9d1d4b8c8a8', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 16:39 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:36 - RESTS request. Send mail
+Mail{id='77b19e88-8cd4-4c35-a395-eac154bff655', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 16:39 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:39 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:39 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:39 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 16:39 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 16:39 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:39 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:51 RemoveMailsTest:29 - --------@BeforeTest method started-------- 
+INFO  2019-03-11 16:51 RemoveMailsTest:72 - --------@BeforeMethod method started-------- 
+INFO  2019-03-11 16:51 RemoveMailsTest:52 - --------Test method removeMailsRESTTest() started-------- 
+INFO  2019-03-11 16:51 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:51 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:51 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 16:51 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 16:51 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 16:51 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 16:51 RemoveMailsTest:72 - --------@BeforeMethod method started-------- 
+INFO  2019-03-11 16:51 RemoveMailsTest:36 - --------Test method removeMailsSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:52 - --------@BeforeTest method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:38 - --------Test method sendMailRESTTest() started-------- 
+INFO  2019-03-11 16:52 RestMailService:36 - RESTS request. Send mail
+Mail{id='05ec0a5d-df08-48c0-859e-a8c6703bd790', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 16:52 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:38 - --------Test method sendMailRESTTest() started-------- 
+INFO  2019-03-11 16:52 RestMailService:36 - RESTS request. Send mail
+Mail{id='39185da3-c554-47cf-96de-d29a8c7738f7', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 16:52 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:38 - --------Test method sendMailRESTTest() started-------- 
+INFO  2019-03-11 16:52 RestMailService:36 - RESTS request. Send mail
+Mail{id='0e895226-f083-4023-898a-e5b0b4a8f05e', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 16:52 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:38 - --------Test method sendMailRESTTest() started-------- 
+INFO  2019-03-11 16:52 RestMailService:36 - RESTS request. Send mail
+Mail{id='8c1db8e0-7899-445c-bb93-6f655898e94b', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 16:52 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:38 - --------Test method sendMailRESTTest() started-------- 
+INFO  2019-03-11 16:52 RestMailService:36 - RESTS request. Send mail
+Mail{id='0af48812-48d4-4201-9be0-6f0cc7de2cbc', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 16:52 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:28 - --------Test method sendMailSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:28 - --------Test method sendMailSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:28 - --------Test method sendMailSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:28 - --------Test method sendMailSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:28 - --------Test method sendMailSOAPTest() started-------- 
+INFO  2019-03-11 16:52 SendMailsTest:60 - --------@AfterMethod method started-------- 
+INFO  2019-03-11 17:04 FindByReceiverTest:31 - --------@BeforeTest method started-------- 
+INFO  2019-03-11 17:04 FindByReceiverTest:37 - --------@BeforeMethod method started-------- 
+INFO  2019-03-11 17:11 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:38 - @BeforeMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:60 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:11 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:11 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:11 FindByReceiverTest:76 - @AfterMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:38 - @BeforeMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:50 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:11 FindByReceiverTest:76 - @AfterMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:38 - @BeforeMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:60 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:11 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:11 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:11 FindByReceiverTest:76 - @AfterMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:38 - @BeforeMethod method started 
+INFO  2019-03-11 17:11 FindByReceiverTest:50 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:11 FindByReceiverTest:76 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:52 - @BeforeTest method started 
+INFO  2019-03-11 17:13 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:13 RestMailService:36 - RESTS request. Send mail
+Mail{id='36709b24-b7a9-4fab-8307-081486339370', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 17:13 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:13 RestMailService:36 - RESTS request. Send mail
+Mail{id='5c0c7a1c-f81b-4a38-816c-effad7105998', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 17:13 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:13 RestMailService:36 - RESTS request. Send mail
+Mail{id='a097688b-0957-4552-9e42-39c5673e81fb', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 17:13 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:13 RestMailService:36 - RESTS request. Send mail
+Mail{id='4b4c1dfe-e7fe-4da7-bbb0-0bedb5025216', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 17:13 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:13 RestMailService:36 - RESTS request. Send mail
+Mail{id='539b3c30-e560-4b11-aa13-3c57c129807a', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 17:13 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:13 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:13 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:61 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:14 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:14 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:14 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:51 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:14 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:61 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:14 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:14 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:14 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:14 FindByReceiverTest:51 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:14 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:20 FindByTitleTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:20 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:20 FindByTitleTest:61 - Test method findMailByTitleRESTTest() started 
+INFO  2019-03-11 17:20 RestMailService:90 - RESTS request. Find mails by title 
+INFO  2019-03-11 17:20 RestMailService:94 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%20expected%20to%20be%20removed 
+INFO  2019-03-11 17:20 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:20 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:20 FindByTitleTest:51 - Test method findMailByTitleSOAPTest() started 
+INFO  2019-03-11 17:20 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:35 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:35 FindByTitleTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:35 RemoveMailsTest:29 - @BeforeTest method started 
+INFO  2019-03-11 17:35 SendMailsTest:52 - @BeforeTest method started 
+INFO  2019-03-11 17:35 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:35 FindByReceiverTest:61 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:35 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:35 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:35 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:35 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:35 FindByTitleTest:61 - Test method findMailByTitleRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:90 - RESTS request. Find mails by title 
+INFO  2019-03-11 17:35 RestMailService:94 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%20expected%20to%20be%20removed 
+INFO  2019-03-11 17:35 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:35 RemoveMailsTest:72 - @BeforeMethod method started 
+INFO  2019-03-11 17:35 RemoveMailsTest:52 - Test method removeMailsRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:35 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:35 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 17:35 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 17:35 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:35 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:35 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:36 - RESTS request. Send mail
+Mail{id='a2ec7979-560d-4b6e-9669-0d56b0e7cbd9', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 17:35 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:35 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:35 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:36 - RESTS request. Send mail
+Mail{id='e8a4d42e-09e7-4c80-85f8-07d41efde34e', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 17:35 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:35 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:35 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:36 - RESTS request. Send mail
+Mail{id='acb6754a-bcf9-43cc-9157-16a385804ae2', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 17:35 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:35 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:35 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:36 - RESTS request. Send mail
+Mail{id='f8689b8c-a70b-4947-b992-65a24c46daa2', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 17:35 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:35 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:35 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:35 RestMailService:36 - RESTS request. Send mail
+Mail{id='0fb50789-e110-4275-9586-a4981afac8b5', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 17:35 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:35 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByTitleTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:29 - @BeforeTest method started 
+INFO  2019-03-11 17:36 SendMailsTest:52 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:61 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:36 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:36 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:36 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:61 - Test method findMailByTitleRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:90 - RESTS request. Find mails by title 
+INFO  2019-03-11 17:36 RestMailService:94 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%20expected%20to%20be%20removed 
+INFO  2019-03-11 17:36 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:72 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:52 - Test method removeMailsRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:36 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 17:36 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='a13b53ac-b7ef-4485-ba64-86348d485b30', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='1ef6fe10-9a69-4ca0-bf88-98ddb267fe80', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='bf2cd0c6-7706-4172-91ad-0494381e4bf0', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='d08c7593-3899-4628-9787-5c5c074a29a6', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='ba4e8487-d0de-48a1-acda-bf4098e64d14', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByTitleTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:29 - @BeforeTest method started 
+INFO  2019-03-11 17:36 SendMailsTest:52 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:51 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:36 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:51 - Test method findMailByTitleSOAPTest() started 
+INFO  2019-03-11 17:36 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:72 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:36 - Test method removeMailsSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:28 - Test method sendMailSOAPTest() started 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByTitleTest:32 - @BeforeTest method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:29 - @BeforeTest method started 
+INFO  2019-03-11 17:36 SendMailsTest:52 - @BeforeTest method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByReceiverTest:61 - Test method findMailByReceiverSOAPTest() started 
+INFO  2019-03-11 17:36 RestMailService:60 - RESTS request. Find mails by email 
+INFO  2019-03-11 17:36 RestMailService:64 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byEmail/randomeReceiver@test.com 
+INFO  2019-03-11 17:36 FindByReceiverTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:39 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 FindByTitleTest:61 - Test method findMailByTitleRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:90 - RESTS request. Find mails by title 
+INFO  2019-03-11 17:36 RestMailService:94 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/byTitle/Title%20expected%20to%20be%20removed 
+INFO  2019-03-11 17:36 FindByTitleTest:77 - @AfterMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:72 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:52 - Test method removeMailsRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:36 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 17:36 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='672ea8a8-2181-4614-81d4-ad90c0faacb5', receiver='email01@test.com', title='Title 1'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='c90ee9e9-a457-40e0-8aca-3d154f7ff11e', receiver='email02@test.com', title='Title 2'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='092bcec1-20ce-4642-9411-2765fe36f039', receiver='email03@test.com', title='Title 3'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='5ccd7aac-9f60-404b-9790-5eeb100d3d39', receiver='email04@test.com', title='Title 4'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 SendMailsTest:38 - Test method sendMailRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:36 - RESTS request. Send mail
+Mail{id='dae058f3-886c-4fe7-b255-ffc6e2206d8f', receiver='email05@test.com', title='Title 5'} 
+INFO  2019-03-11 17:36 RestMailService:40 - path:http://localhost:8080/OlehFedorivService/RESTService/mail 
+INFO  2019-03-11 17:36 SendMailsTest:60 - @AfterMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:29 - @BeforeTest method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:72 - @BeforeMethod method started 
+INFO  2019-03-11 17:36 RemoveMailsTest:52 - Test method removeMailsRESTTest() started 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 
+INFO  2019-03-11 17:36 RestMailService:178 - RESTS request. Remove given mail(s) from server 
+INFO  2019-03-11 17:36 RestMailService:183 - path:http://localhost:8080/OlehFedorivService/RESTService/mails/remove 
+INFO  2019-03-11 17:36 RestMailService:149 - RESTS request. Get all mails from server 
+INFO  2019-03-11 17:36 RestMailService:153 - path:http://localhost:8080/OlehFedorivService/RESTService/mails 

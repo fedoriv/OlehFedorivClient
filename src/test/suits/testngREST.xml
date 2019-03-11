@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="REST" verbose="10" group-by-instances="true" thread-count="5"  data-provider-thread-count="5" parallel="methods">
+    <test name="RESTTest" >
+        <classes>
+            <class name="web.FindByReceiverTest">
+                <methods>
+                    <include name="findMailByReceiverRESTTest" />
+                </methods>
+            </class>
+            <class name="web.FindByTitleTest">
+                <methods>
+                    <include name="findMailByTitleRESTTest" />
+                </methods>
+            </class>
+            <class name="web.RemoveMailsTest">
+                <methods>
+                    <include name="removeMailsRESTTest" />
+                </methods>
+            </class>
+            <class name="web.SendMailsTest">
+                <methods>
+                    <include name="sendMailRESTTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

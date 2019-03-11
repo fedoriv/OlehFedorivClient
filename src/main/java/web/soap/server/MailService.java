@@ -93,9 +93,7 @@ public interface MailService {
     @ResponseWrapper(localName = "findByIdResponse", targetNamespace = "http://server.soap.web/", className = "web.soap.server.FindByIdResponse")
     public Mail findById(
         @WebParam(name = "arg0", targetNamespace = "")
-        String arg0)
-        throws ServiceException
-    ;
+        String arg0);
 
     /**
      * 

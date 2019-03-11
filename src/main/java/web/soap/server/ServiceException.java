@@ -21,6 +21,10 @@ public class ServiceException
      */
     private MailServiceFault faultInfo;
 
+    public ServiceException(MailServiceFault faultInfo) {
+        this.faultInfo = faultInfo;
+    }
+
     /**
      * 
      * @param faultInfo
